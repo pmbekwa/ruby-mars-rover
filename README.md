@@ -59,7 +59,7 @@ This is where the rover should be: 6 5 N
 
 A `sample_input` file (with valid/ invalid) is included for
 demonstration. For invalid inputs, a corresponding error message is displayed.  
-
+To install the required gems, run `$ bundle install`  in the repo directory.
 To execute the ruby program, run the following command:  
 
 `$ rake execute `
@@ -71,8 +71,10 @@ If you have docker installed. Execute the program by runnning the fowllowing com
 
 ## Testing
 
-To install the required gems, run `$ bundle install`  in the repo directory.
-
 For executing the specs (unit testing), execute the following command:  
 
 `$ bundle exec rspec --format documentation --color`
+
+OR
+
+`$ rake test`
